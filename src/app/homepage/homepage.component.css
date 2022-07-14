@@ -1,0 +1,12 @@
+#page-container 
+{
+  background-image: url('/assets/background-618226.png');
+  background-size: cover;
+  background-position: center;
+}
+#nav-container 
+{
+  background-image: url('/assets/4.jpg');
+  background-size: cover;
+  background-position: center;
+}

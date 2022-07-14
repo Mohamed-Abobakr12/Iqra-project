@@ -1,0 +1,19 @@
+<div id="signup-container" class="min-h-screen bg-gray-100 text-gray-800 antialiased px-4 py-6 flex flex-col justify-center sm:py-12">
+    <div class="relative py-3 sm:w-96 mx-auto text-center">
+      <div class="relative mt-4 bg-white shadow-md sm:rounded-lg text-left">
+        <div class="h-2 bg-indigo-400 rounded-t-md"></div>
+        <div class="py-10 px-8">
+          <label class="block font-semibold">Email</label>
+          <input type="email" placeholder="Email@example.com" id="email" class=" border w-full h-5 px-3 py-5 mt-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-indigo-600 rounded-md"  [(ngModel)]="email">
+          <label class="block mt-3 font-semibold">Password</label>
+          <input type="password" placeholder="*************" id="password" class=" border w-full h-5 px-3 py-5 mt-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-indigo-600 rounded-md" [(ngModel)]="password">
+          <p class="text-red-600 py-3 text-xs italic">Password must be contain more then 5</p>
+          <div class="flex justify-between items-baseline">
+            <button (click)="signup()" class="mt-4 bg-indigo-500 text-white py-2 px-6 rounded-lg">Sign up</button>
+            <a href="/login" class="text-sm hover:underline">Already have an account</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

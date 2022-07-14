@@ -1,0 +1,18 @@
+#page-container 
+{
+  background-image: url('/assets/web-1012467_1920.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#nav-container 
+{
+  background-image: url('/assets/8.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#form-container
+{
+  display:none;
+  position:absolute;
+  z-index:1000;
+}

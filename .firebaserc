@@ -1,0 +1,21 @@
+{
+  "targets": {
+    "iqra-project-c9dfa": {
+      "hosting": {
+        "Iqra-project": [
+          "iqra-project-c9dfa"
+        ]
+      }
+    },
+    "iqra-project-567d6": {
+      "hosting": {
+        "Iqra-project": [
+          "iqra-project-567d6"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "iqra-project-567d6"
+  }
+}
